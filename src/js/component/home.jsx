@@ -17,6 +17,7 @@ const Home = () => {
 			className={"light green" + ((selectedColor === "green") ? " glow" : "")}> </div>
 
 		</div>
+        
     );
 };
 

@@ -1,9 +1,18 @@
 .traffic-Light {
     background-color: black;
     padding: 100px;
+    width: 50px;
+    
     display: inline-block;
     margin: auto;
+
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: rounded;
+
 }
 
 .light {
@@ -12,9 +21,19 @@
     border-radius: 50%;
     background-color: blue;
 }
-.red {background-color: red;}
-.yellow {background-color: yellow;}
-.green {background-color: green;}
 
-.glow {box-shadow: 10px 10px 30px rgb(227, 220, 220);}
+.red {
+    background-color: red;
+}
 
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.glow {
+    box-shadow: 10px 10px 30px rgb(227, 220, 220);
+}
