@@ -1,25 +1,28 @@
+.semaforo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
 .traffic-Light {
     background-color: black;
-    padding: 100px;
-    width: 50px;
+    border-radius: 15px;   
+    width: 130px;
+    height: 350px;
 
     display: inline-block;
-    margin: auto;
-
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: rounded;
-
 }
 
 .light {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    background-color: blue;
 }
 
 .red {
@@ -39,9 +42,7 @@
 }
 
 .Button {
-
     background-color: rgb(150, 82, 214);
-
 }
 
 .boton-purpura {
