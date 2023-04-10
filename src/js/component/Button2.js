@@ -1,5 +1,8 @@
 import Button from '@mat'
 
+const changeToPurple = () => {
+    setSelectedColor("purple");
+
 function Button2() {
     return (
         <div>
@@ -11,4 +14,6 @@ function Button2() {
         </div>
     )
 }
+}
+
 export default Button2;

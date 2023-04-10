@@ -5,8 +5,11 @@ import Button from "./Button.js";
 const Home = () => {
     const [selectedColor, setSelectedColor] = useState("red");
 
-    return (
+    const changeToPurple = () => {
+        setSelectedColor("purple");
+    };
 
+    return (
         <div className="semaforo">
             <div className="Palito"> </div>
 
@@ -22,10 +25,11 @@ const Home = () => {
                     className={"light green" + ((selectedColor === "green") ? " glow" : "")}> </div>
                 <br></br>
 
-                <div><Button /></div>
+                <div className="Button" onClick={changeToPurple}>Purple</div>
             </div>
         </div>
     );
 };
+
 
 export default Home;
