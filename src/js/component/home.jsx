@@ -11,7 +11,6 @@ const Home = () => {
 
     return (
         <div className="semaforo">
-            <div className="Palito"> </div>
 
             <div className="traffic-Light">
 
@@ -25,7 +24,7 @@ const Home = () => {
                     className={"light green" + ((selectedColor === "green") ? " glow" : "")}> </div>
                 <br></br>
 
-                <div className="Button" onClick={changeToPurple}>Purple</div>
+                <div className="btn" onClick={changeToPurple}>Purple</div>
             </div>
         </div>
     );
