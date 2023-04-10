@@ -5,10 +5,15 @@
     margin-top: 40px;
 }
 
+.Palito {
+    height: 80px;
+    width: 30px;
+    background-color: black;
+}
 .traffic-Light {
     background-color: black;
     border-radius: 15px;   
-    width: 130px;
+    width: 120px;
     height: 350px;
 
     display: inline-block;

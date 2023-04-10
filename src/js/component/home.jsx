@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import Button from "./Button.js";
 
-
-
 //create your first component
 const Home = () => {
     const [selectedColor, setSelectedColor] = useState("red");
 
     return (
+
         <div className="semaforo">
+            <div className="Palito"> </div>
+
             <div className="traffic-Light">
 
                 <div onClick={() => setSelectedColor("red")}
