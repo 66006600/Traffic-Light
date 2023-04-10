@@ -29,18 +29,23 @@
 
 .red {
     background-color: red;
+    cursor: pointer;
 }
 
 .yellow {
     background-color: yellow;
+    cursor: pointer;
 }
 
 .green {
     background-color: green;
+    cursor: pointer;
 }
 
 .glow {
-    box-shadow: 10px 10px 30px rgb(227, 220, 220);
+    box-shadow: 0px 0px 50px white;
+    animation: glow 1s ease-in-out infinite alternate;
+    
 }
 
 .Button {
