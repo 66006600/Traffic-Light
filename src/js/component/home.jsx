@@ -5,8 +5,12 @@ import Button from "./Button.js";
 const Home = () => {
     const [selectedColor, setSelectedColor] = useState("red");
 
+    const [purple, setPurple] = useState(false) 
+
     const changeToPurple = () => {
-        setSelectedColor("purple");
+        setPurple(true) ? "purple" : "red";
+        
+
     };
 
     return (
@@ -15,7 +19,7 @@ const Home = () => {
             <div className="traffic-Light">
 
                 <div onClick={() => setSelectedColor("red")}
-                    className={"light red" + ((selectedColor === "red") ? " glow" : "")}> </div>
+                    className={"light " + ((purple === true) ? "purple" : "red") + ((selectedColor === "red") ? " glow" : "")}> </div>
 
                 <div onClick={() => setSelectedColor("yellow")}
                     className={"light yellow" + ((selectedColor === "yellow") ? " glow" : "")}> </div>
