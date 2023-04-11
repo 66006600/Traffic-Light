@@ -8,6 +8,8 @@ const Home = () => {
         setPurple(purple => !purple);
     };
 
+    {purple ? "Red" : "Purple"}
+
     return (
         <div className="semaforo">
 
@@ -24,7 +26,7 @@ const Home = () => {
                 <br></br>
 
                 <div className="btn" onClick={changeToPurple}>Purple</div>
-                {purple ? "Red" : "Purple"}
+                
 
             </div>
         </div>
