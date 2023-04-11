@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Button from "./Button.js";
 
-//create your first component
 const Home = () => {
 
     const [selectedColor, setSelectedColor] = useState("red");
