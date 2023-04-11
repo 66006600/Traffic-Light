@@ -31,6 +31,7 @@
     background-color: red;
     cursor: pointer;
     margin-bottom: 6px;
+    margin-top: 20px;
 }
 
 .yellow {
@@ -45,21 +46,33 @@
 }
 .purple {
     background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 6px;
 }
 
 .glow {
     box-shadow: 0px 0px 50px white;
-    animation: glow 1s ease-in-out infinite alternate;
-    
+       
 }
-
+.glow-animation {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 40px #fff, 0 0 10px #f1e2e2, 0 0 15px #fff, 0 0 20px rgb(230, 201, 201);
+    }
+    to {
+      box-shadow: 0 0 40px #fff, 0 0 10px #e1c6c6, 0 0 15px #fff, 0 0 20px rgb(230, 209, 209);
+    }
+  }
 .btn {
     background-color: rgb(150, 82, 214);
-    border-radius: 8px;
-    color: rgb(232, 198, 225);
-    padding: 10px;
-    font-size: 16px;
-    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    color: rgb(232, 198, 225);   
+    font-size: 15px;
     cursor: pointer;
     margin-bottom: 5px;
 }
