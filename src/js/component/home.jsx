@@ -3,6 +3,7 @@ import Button from "./Button.js";
 
 //create your first component
 const Home = () => {
+
     const [selectedColor, setSelectedColor] = useState("red");
     const [purple, setPurple] = useState(false);
     const changeToPurple = () => {
@@ -31,6 +32,4 @@ const Home = () => {
         </div>
     );
 };
-
-
 export default Home;
